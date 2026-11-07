@@ -126,11 +126,14 @@ was not included. Data retrieved on 6 November 2026.
 
 ### District boundary
 
-The Mitte boundary is stored in
-`data/processed/mitte_boundary.gpkg` and was used to clip
-the raster and green-space polygons.
+Source: Geoportal Berlin — Berlin district boundaries.
 
-Original boundary dataset reference: to be added.
+The boundary layer was originally downloaded for the
+*Berlin Population Density 2025* project. For this analysis,
+the Mitte feature was selected and exported to
+`data/processed/mitte_boundary.gpkg`.
+
+It was used to clip the PET raster and green-space polygons.
 
 ### Basemap
 
@@ -170,13 +173,3 @@ All files listed above are stored in `data/processed/`.
 - Analysis CRS: ETRS89 / UTM zone 33N — EPSG:25833.
 - QGIS project: `project/escape_the_heat_berlin.qgz`.
 
-### District boundary
-
-Source: Geoportal Berlin — Berlin district boundaries.
-
-The boundary layer was originally downloaded for the
-*Berlin Population Density 2025* project. For this analysis,
-the Mitte feature was selected and exported to
-`data/processed/mitte_boundary.gpkg`.
-
-It was used to clip the PET raster and green-space polygons.
