@@ -1,0 +1,17 @@
+# Original downloaded data
+/data/raw/
+
+# Temporary processing files
+/data/temp/
+
+# QGIS backups
+*.qgz~
+*.qgs~
+
+# GeoPackage temporary files
+*.gpkg-wal
+*.gpkg-shm
+
+# Other temporary files
+*.tmp
+*.swp
